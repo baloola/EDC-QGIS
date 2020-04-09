@@ -1,0 +1,36 @@
+# This file contains metadata for your plugin.
+
+# Mandatory items:
+[general]
+name=SentinelHub
+qgisMinimumVersion=2.0
+qgisMaximumVersion=3.99
+description=SentinelHub plugin enables users to harness power of Sentinel Hub services directly from QGIS.
+version=1.3.3
+author=Sinergise
+email=info@sentinel-hub.com
+
+about=SentinelHub plugin transforms any layer created in Sentinel Hub Configuration Utility into QGIS layer. It allows exploration, customization and image download. An instance ID for Sentinel Hub services is required (http://www.sentinel-hub.com/). Trial (http://www.sentinel-hub.com/create_account) and free accounts are available (https://medium.com/sentinel-hub/sentinel-hub-at-the-eo-cloud-free-accounts-for-r-d-projects-eccb3e3d0659 and https://medium.com/sentinel-hub/sentinel-hub-free-accounts-within-esa-business-applications-b0046c0595f0)
+
+homepage=https://github.com/sinergise/qgis_sentinel_hub/blob/master/README.md
+tracker=https://github.com/sinergise/qgis_sentinel_hub/issues
+repository=https://github.com/sinergise/qgis_sentinel_hub
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=SentinelHub, Sinergise, remote sensing, satellite, images, viewer, download, Sentinel, Landsat, Modis, DEM, Envisat
+
+category=Web
+icon=favicon.ico
+
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
